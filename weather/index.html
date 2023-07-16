@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather with Javascirpt </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search-box">
+                <input type="text" placeholder="Enter your location" class="input-box">
+                <button class="fa-solid fa-magnifying-glass" id="searchBtn"></button>
+
+            </div>
+
+        </div>
+
+        <div class="locaction-not-found">
+            <h1>Sorry, Location not found!!!<h1>
+                <img src="assets/404.png.webp" alt="location not found">
+        </div>
+        <div class="weather-body">
+            <img src="/assets/snow.png.png" alt="Weather image" class="Weather-image">
+            <div class="weather-box">
+                <p class="temperature">0<sup>°C</sup></p>
+                <p class="description">Light rain</p>
+            </div>
+            <div class="weather-details">
+                <div class="humidity">
+                    <i class="fa-sharp  fa-solid fa-droplet"></i>
+                    <div class="text"><span id="humidity">45%</span>
+                        <p>humidity</p>
+                    </div>
+                </div>
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text"><span id="wind-speed">12Km/H</span>
+                        <p>wind speed</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+<script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/ec01ea5809.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
